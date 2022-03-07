@@ -315,7 +315,7 @@ async function timer_event(){
 b_refresh.addEventListener("click", resetObjs);
 
 //readLine
-fetch("http://127.0.0.1:5500/3 learn_javascript/Typing Test/id_words.txt")
+fetch("https://github.com/CaaziExe/Typing-Test/blob/main/id_words.txt")
 .then(response => response.text())
 .then(data => useData(data));
 function useData(data){
