@@ -315,7 +315,7 @@ async function timer_event(){
 b_refresh.addEventListener("click", resetObjs);
 
 //readLine
-fetch("https://github.com/CaaziExe/Typing-Test/blob/main/id_words.txt")
+fetch("https://raw.githubusercontent.com/CaaziExe/Typing-Test/main/id_words.txt?token=GHSAT0AAAAAABSHFJBA6BICW5NJ3O3ZWAHSYRFTZDA")
 .then(response => response.text())
 .then(data => useData(data));
 function useData(data){
