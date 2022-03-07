@@ -79,6 +79,7 @@ async function resetObjs(){
 
     input = getElement("#input");
     input.setAttribute("oninput", "changeEvent()");
+    input.focus();
     l_timer = getElement("#l_timer");
     b_refresh = getElement("#b_refresh");
     b_refresh.addEventListener("click", resetObjs);
