@@ -1,3 +1,4 @@
+console.log("Typing Test");
 function getElement(obj){
     return document.querySelector(obj);
 }
