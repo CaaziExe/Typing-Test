@@ -27,6 +27,7 @@ function generateLine(array){
     return arrLine;
 }
 async function resetObjs(){
+    timeRun = false;
     remove_objs.forEach(e => e.remove());
     let loader = document.createElement("div");
     loader.setAttribute("id", "loader");
@@ -89,7 +90,6 @@ async function resetObjs(){
     f_objs = getElement("#f_objs");
     remove_objs = getAllElement(".main_objs");
 
-    timeRun = false;
     i = 0;
     arrLine1 = [];
     arrLine2 = [];
