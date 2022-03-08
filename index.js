@@ -1,4 +1,4 @@
-console.log("Typing Test");
+console.log("css edit");
 function getElement(obj){
     return document.querySelector(obj);
 }
