@@ -1,4 +1,4 @@
-console.log("css edit");
+console.log("timeRun bug issue");
 function getElement(obj){
     return document.querySelector(obj);
 }
