@@ -37,8 +37,9 @@ body{
     width: 600px;
     height: 35px;
     position: absolute;
-    left: 30%;
+    left: 50%;
     top: 180px;
+    transform: translateX(-50%);
 }
 #input{
     outline: none;
