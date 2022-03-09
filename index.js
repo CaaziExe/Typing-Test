@@ -1,4 +1,4 @@
-console.log("timeRun bug issue");
+console.log("Edit in vscode");
 function getElement(obj){
     return document.querySelector(obj);
 }
